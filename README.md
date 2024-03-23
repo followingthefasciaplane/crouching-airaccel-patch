@@ -10,5 +10,5 @@ the resulting acceleration is added to the velocity.
 however, `CCSGameMovement::ApplyDuckRatio` (found in reversed igamemovement) scales down the player's forward, side, and upward movement values, as well as their maximum speed, by multiplying them with a duck ratio value.
 the duck ratio is calculated based on the player's current ducked amount and decreases as the player becomes more crouched. 
 
-as a result, ducking creates a reduction in perceived airaccel while surfing. this kinda aims to detour it and reset the duck ratio to 0 if airborne (we ignore if on ground).
+as a result, ducking creates a reduction in perceived airaccel while surfing. this kinda aims to detour it and reset the duck ratio to 1.0 if airborne (we ignore if on ground).
 the duck ratio is only relevant to speed reduction so this should not effect any other properties of crouching, such as player dimensions.
