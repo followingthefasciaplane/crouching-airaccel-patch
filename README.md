@@ -1,7 +1,7 @@
 https://github.com/click4dylan/CSGO_GameMovement_Reversed/blob/master/IGameMovement.cpp  
 https://github.com/ValveSoftware/source-sdk-2013/blob/master/mp/src/game/shared/gamemovement.cpp
 
-i havent actually tested this and u will need to update the plugin with practical functionality. this is just a concept, you will need to add checks for each client per tick, gamedata, and update specific functions depending on the game. these functions may be outdated now heres the idea:
+i havent actually tested this and u will need to update the plugin with practical functionality. this is just a concept, you will need to add checks for each client per tick, updated gamedata, and update specific functions depending on the game. these functions themselves may be outdated now also, but heres the idea:
 
 in `CCSGameMovement::AirMove` the player's wishspeed is calculated based on their forward, side, and up, capped sv_air_max_wishspeed (usually 30). 
 wishspeed is then passed to `CCSGameMovement::AirAccelerate`, which applies air acceleration to the player's velocity based on the wishspeed, wishdir, sv_airaccelerate.
