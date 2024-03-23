@@ -1,4 +1,4 @@
-https://github.com/click4dylan/CSGO_GameMovement_Reversed/blob/master/IGameMovement.cpp
+https://github.com/click4dylan/CSGO_GameMovement_Reversed/blob/master/IGameMovement.cpp  
 https://github.com/ValveSoftware/source-sdk-2013/blob/master/mp/src/game/shared/gamemovement.cpp
 
 i havent actually tested this and u will need to update plugin and gamedata urself depending on the game but in theory:
