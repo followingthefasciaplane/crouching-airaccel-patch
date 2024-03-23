@@ -1,7 +1,7 @@
 https://github.com/click4dylan/CSGO_GameMovement_Reversed/blob/master/IGameMovement.cpp  
 https://github.com/ValveSoftware/source-sdk-2013/blob/master/mp/src/game/shared/gamemovement.cpp
 
-i havent actually tested this and u will need to update plugin and gamedata urself depending on the game but in theory:
+i havent actually tested this and u will need to update plugin to actually function work (this is just a concept) and gamedata urself depending on the game but in theory:
 
 in `CCSGameMovement::AirMove` the player's wishspeed is calculated based on their forward, side, and up, capped sv_air_max_wishspeed (usually 30). 
 wishspeed is then passed to `CCSGameMovement::AirAccelerate`, which applies air acceleration to the player's velocity based on the wishspeed, wishdir, sv_airaccelerate.
