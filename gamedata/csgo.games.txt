@@ -1,0 +1,23 @@
+"Games"
+{
+    "csgo"
+    {
+        "Signatures"
+        {
+            "CCSGameMovement::ApplyDuckRatio"
+            {
+                "library"   "server" 
+                "linux"     "@_ZN15CCSGameMovement14ApplyDuckRatioEf" //replace these as needed
+                "windows"   "\x55\x8B\xEC\x83\xEC\x08\x56\x8B\xF1\x8B\x86\x2A\x2A\x2A\x2A\x57\x8B\x7D\x08"
+            }
+        }
+        "Offsets"
+        {
+            "CCSGameMovement::m_pCSPlayer"
+            {
+                "linux"     "4" //this too
+                "windows"   "4"
+            }
+        }
+    }
+}
