@@ -50,7 +50,7 @@ public MRESReturn CCSGameMovement_ApplyDuckRatio_Detour(int thisPtr, Handle hPar
     // get rid of duck movement penalties when in the air
     if (!(GetEntityFlags(clientIndex) & FL_ONGROUND))
     {
-        float newDuckAmount = 0.0; 
+        float newDuckAmount = 1.0; 
         DHookSetParam(hParams, 1, newDuckAmount); // assuming its actually the first parameter
 
         return MRES_Supercede; // override the original function
