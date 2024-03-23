@@ -6,17 +6,22 @@
         {
             "CCSGameMovement::ApplyDuckRatio"
             {
-                "library"   "server" 
-                "linux"     "@_ZN15CCSGameMovement14ApplyDuckRatioEf" //replace these as needed
+                "library"   "server"
+                "linux"     "@_ZN15CCSGameMovement14ApplyDuckRatioEf" //update these
                 "windows"   "\x55\x8B\xEC\x83\xEC\x08\x56\x8B\xF1\x8B\x86\x2A\x2A\x2A\x2A\x57\x8B\x7D\x08"
             }
         }
         "Offsets"
         {
-            "CCSGameMovement::m_pCSPlayer"
+            "CBaseEntity::m_pMovement"
             {
-                "linux"     "4" //this too
-                "windows"   "4"
+                "linux"     "m_pMovement" //placeholders
+                "windows"   "m_pMovement"
+            }
+            "CCSPlayer::m_pPlayer"
+            {
+                "linux"     "m_pPlayer" 
+                "windows"   "m_pPlayer" //placeholders
             }
         }
     }
