@@ -18,10 +18,10 @@
                 "linux"     "m_pMovement" //placeholders
                 "windows"   "m_pMovement"
             }
-            "CCSPlayer::m_pPlayer"
+            "CCSPlayer::m_pCSPlayer"
             {
-                "linux"     "m_pPlayer" 
-                "windows"   "m_pPlayer" //placeholders
+                "linux"     "m_pCSPlayer" 
+                "windows"   "m_pCSPlayer" //placeholders
             }
         }
     }
