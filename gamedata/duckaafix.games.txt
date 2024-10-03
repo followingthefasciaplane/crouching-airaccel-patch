@@ -5,8 +5,6 @@
 		"Keys"
 		{
 			"IGameMovement"		"GameMovement001"
-
-			"IServerGameEnts"	"ServerGameEnts001"
 		}
 
 		"Signatures"
